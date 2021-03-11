@@ -1,0 +1,26 @@
+.component-container{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+  }
+  
+  .main-container{
+    background-color: crimson;
+  }
+  
+  .bg-header{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    height: 250px;
+  }
+  
+  .bg-header img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 10px;
+      background-repeat: no-repeat;
+      overflow: hidden;
+  }
+  
