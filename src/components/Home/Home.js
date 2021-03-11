@@ -6,57 +6,41 @@ import logo from '../../images/logo.png'
 import './Home.css'
 
 
-
-
-
-
 const Home = () => {
 
   const [teams, setTeams] = useState([]);
-    
-  useEffect( () => {
-      async function fetchData(){
+  useEffect(() => {
+    async function fetchData() {
       const url = `https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League`;
       const res = await fetch(url);
       const data = await res.json();
       setTeams(data.teams)
 
-      }
-      fetchData();
-      return () => {};
+    }
+    fetchData();
+    return () => { };
 
-    }, []);
+  }, []);
 
-      // const testType = typeof(teams)
-      // console.log(testType);
-      // console.log(teams);
-     
+  return (
 
-    return (
-      
-        <div className='container-fluid main-container'>
-        <div>
-          <div className='container bg-header-1' style={{backgroundImage: `url(${bgheader1})`}}>
-            <img src={logo} alt=""/>
-  
-          </div>
-  
-          <div className='container component-container'>
-            <div className='row row-cols-3'>
+    <div className='container-fluid main-container'>
+      <div>
+        <div className='container bg-header-1' style={{ backgroundImage: `url(${bgheader1})` }}>
+          <img src={logo} alt="" />
+        </div>
+
+        <div className='container component-container'>
+          <div className='row row-cols-3 myRow'>
             {
-              teams.map((team, index) => <Teams key = {index} team={team} ></Teams>  )
-              
+              teams.map((team, index) => <Teams key={index} team={team} ></Teams>)
+
             }
-            </div>
           </div>
         </div>
-  
-        
-        
-  
-  
       </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

@@ -1,39 +1,59 @@
-.myCard{
+.myCard {
     margin: 0px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.308);
-    
+    background-color: cornflowerblue;
 }
 
-.myRow{
+.my-Card-body {
+    background-color: #fff;
+    padding: 20px 5px 0px 5px;
+}
+.myRow {
     margin: 10px;
     padding: 10px;
 }
 
-.my-card-body{
+.my-card-body { 
     text-align: center;
 }
 
-.my-card-title{
+.my-card-title {
     font-size: 25px;
     font-weight: bold;
-
 }
 
-.my-card-text{
+.my-card-text {
     font-size: 20px;
 }
 
-.my-btn{
+.my-btn {
     font-size: 20px;
     width: 150px;
 }
 
 @media screen and (max-width: 576px) {
 
-    .myRow {
-      
-        display: block;
+    .myCard {
+      display: block;
+      /* width: 500px; */
       
     }
+
+    .my-card-body{
+        text-align: left;
+        margin-left: -10px;
+        font-size: 10px;
+    }
+    
+    .my-btn{
+        font-size: 15px;
+        width: 75px;
+    }
+  
+    .my-card-title .my-card-text {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+
 }
