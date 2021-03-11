@@ -1,6 +1,6 @@
 .myCard {
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
     background-color: cornflowerblue;
 }
 
@@ -35,9 +35,10 @@
 
     .myCard {
       display: block;
-      /* width: 500px; */
-      
-    }
+      margin: 0px;
+      padding: 5px;
+      background-color: white;
+      }
 
     .my-card-body{
         text-align: left;
@@ -50,9 +51,19 @@
         width: 75px;
     }
   
-    .my-card-title .my-card-text {
+    .my-card-title {
         font-size: 15px;
-        line-height: 10px;
+        line-height: 16px;
+    }
+
+    .my-card-text {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .my-Card-body {
+        background-color: rgb(255, 255, 255);
+        font-size: 5px;
     }
 
 
