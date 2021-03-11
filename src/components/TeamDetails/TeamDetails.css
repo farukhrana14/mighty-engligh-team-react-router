@@ -2,19 +2,24 @@
   background-color: darkorange;
   border-radius: 10px;
   display:flex;
-  height: 200px;
+  height: 250px;
+  margin-top: 20px;
   
 }
 
 .team-bullets{
   margin: 10px;
   padding: 20px;
-  overflow: hidden;
+
+}
+.team-bullets img{
+  width: 20px;
+  
 }
 .team-image img{
   width: 250px;
-  margin-left: 450px;
-  margin-top: 30px;  
+  margin-left: 500px;
+  margin-top: 50px;  
 }
 
 .social-container{
@@ -24,11 +29,18 @@
 
 .team-description{
   margin-top: 10px;
+  min-height: 450px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  font-size: large;
 }
 .team-container{
     border-radius: 10px;
     background-image: linear-gradient(white, cornflowerblue);
     min-height: 100vh;
+    position: relative;
+    
   }
   
   .main-container{
@@ -50,5 +62,10 @@
     border-radius: 10px;
     background-repeat: no-repeat;
     overflow: hidden;
+    
   }
   
+  .bg-header img{
+    padding-top: 20px;
+    width: 200px;
+  }
