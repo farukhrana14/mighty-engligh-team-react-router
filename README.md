@@ -3,7 +3,7 @@
 This assignment is submitted as a par of Complete Web Development Course by [Programming Hero](https://web.programming-hero.com/).
 
 ## Site and code links
-Live site hosted at [netlify](https://app.netlify.com/sites/mighty-english-teams/settings/domain) 
+Live site hosted at [netlify](https://mighty-english-teams.netlify.app/) 
 & Code repository is at [Github](https://github.com/Porgramming-Hero-web-course/react-router-farukhrana14)
 
 ## Tasks in the assignment
