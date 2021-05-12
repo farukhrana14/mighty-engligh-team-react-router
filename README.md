@@ -4,7 +4,7 @@ This assignment is submitted as a par of Complete Web Development Course by [Pro
 
 ## Site and code links
 Live site hosted at [netlify](https://mighty-english-teams.netlify.app/) 
-& Code repository is at [Github](https://github.com/Porgramming-Hero-web-course/react-router-farukhrana14)
+& Code repository is at [Github](https://github.com/farukhrana14/mighty-engligh-team-react-router)
 
 ## Tasks in the assignment
 
