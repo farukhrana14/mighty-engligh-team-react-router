@@ -46,8 +46,8 @@ const TeamDetails = () => {
   return (
     <div className='container-fluid main-container'>
 
-      <div className='container bg-header' style={{ backgroundImage: `url(${strTeamBanner ? strTeamBanner : bgheader})` }}>
-        <div className='teambadge-container'><img src={strTeamBadge ? strTeamBadge : logo} alt="" /></div>
+      <div className='container bg-header' style={{ backgroundImage: `url(${strTeamBanner ? strTeamBanner : bgheader})`, height: '230px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+        {/* <div className='teambadge-container'><img src={strTeamBadge ? strTeamBadge : logo} alt="" /></div> */}
       </div>
 
       <div className='container team-container'>

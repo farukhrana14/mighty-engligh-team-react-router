@@ -48,10 +48,7 @@
     
   }
   
-  .main-container{
-    background-image: linear-gradient(red, yellow);
-    min-height: 100vh;
-  }
+
   
   .bg-header{
     border-radius: 10px;

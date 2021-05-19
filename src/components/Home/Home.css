@@ -4,7 +4,8 @@
 }
 
 .main-container{
-  background-color: crimson;
+ background: linear-gradient(to right, #7f0000, #999999);
+ min-height: 100vh;
 }
   
 .bg-header{
